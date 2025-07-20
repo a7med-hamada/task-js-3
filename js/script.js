@@ -106,7 +106,7 @@ inputsearch.addEventListener("input", function () {
         content.innerHTML = `<p class="text-red-600 text-lg mt-4">لا يوجد منتج بهذا الاسم</p>`;
         count.innerHTML = `عدد المنتجات : 0`;
     } else {
-        drow(filteredProducts); // يعرض فقط المطابقين
+        drow(filteredProducts);
         count.innerHTML = `عدد المنتجات : ${filteredProducts.length}`;
     }
 });
