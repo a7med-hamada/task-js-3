@@ -1,0 +1,29 @@
+.body-itmems{
+    background: url(imgs/pexels-slendyalex-3648850.jpg) no-repeat center top fixed ;
+}
+#content {
+    width: fit-content;
+    padding: 20px;
+    border-radius: 7px;
+    margin: auto;}
+
+#content .item {
+    margin: 5px 0;
+    position: relative;
+    border: 2px solid white;
+    background-color: transparent;
+    filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.5));
+    color: white;
+    border-radius: 7px;
+    padding: 30px ;
+    transition: .5s;
+}
+.del:hover {
+box-shadow: 0 0 12px 1px red;
+}
+.edit:hover{
+box-shadow: 0 0 12px 1px green;
+}
+#addbtn:hover{
+box-shadow: 0 0 15px 1px white;
+}

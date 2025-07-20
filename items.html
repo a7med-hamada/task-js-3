@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="Eng" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <title>test</title>
+  <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="body-itmems">
+
+
+
+<div class="w-[80%] mx-auto mt-5 text-center">
+<div class="w-full flex flex-col-reverse lg:flex-row justify-evenly md:mb-5">
+
+  <!-- Input + زرار الإضافة -->
+  <div class="mb-5 flex gap-3 justify-center">
+    <input class="border-2 border-white px-3 py-2 rounded-lg bg-transparent text-white" type="text" id="inputproduct" placeholder="Enter the name item➕"/>
+
+
+    <button class="border-2 border-white text-white cursor-pointer px-3 py-2 rounded-lg w-24 hover:text-white transition duration-300 ease-in-out" id="addbtn">
+      Add
+    </button>
+  </div>
+
+  <div class="mb-5 flex justify-center">
+    <input class="border-2 border-white px-3 py-2 rounded-lg bg-transparent text-white w-80" type="text" id="inputsearch" placeholder="Search🔎"/>
+  </div>
+
+</div>
+
+  <p class="py-5 text-white" id="count">Number of products : </p>
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-5 w-full rounded-lg mx-auto" id="content"></div>
+  <div id="notfound" style="display: none; color: red;">No matching products found.</div>
+
+</div>
+
+
+  <!-- ///////////////// -->
+<script src="js/script.js"></script>
+</body>
+</html>
+
+
