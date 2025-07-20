@@ -7,7 +7,7 @@ let inputsearch = document.getElementById("inputsearch");
 
 
 let allproducts = [
-    {id: 1, name: "glass", price: 300 , des: "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."},
+    {id: 1, name: "glasses", price: 300 , des: "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."},
     {id: 2, name: "book", price: 200 , des: "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."},
     {id: 3, name: "pin", price: 50 , des: "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."},
     {id: 4, name: "pike", price: 1500 , des: "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."},
